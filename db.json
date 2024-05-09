@@ -183,7 +183,25 @@
       }
     }
   ],
-  "keranjangs": [],
+  "keranjangs": [
+    {
+      "id": "1897",
+      "jumlah": 1,
+      "total_harga": 5000,
+      "product": {
+        "id": "13",
+        "kode": "K-013",
+        "nama": "Es Teh",
+        "harga": 5000,
+        "is_ready": true,
+        "gambar": "es-teh.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Minuman"
+        }
+      }
+    }
+  ],
   "pesanans": [
     {
       "id": "a985",
@@ -222,6 +240,46 @@
               "nama": "Minuman"
             }
           }
+        }
+      ]
+    },
+    {
+      "id": "9f5d",
+      "total_bayar": 44000,
+      "menus": [
+        {
+          "jumlah": 6,
+          "total_harga": 30000,
+          "product": {
+            "id": "13",
+            "kode": "K-013",
+            "nama": "Es Teh",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "es-teh.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": "d017"
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 14000,
+          "product": {
+            "id": "12",
+            "kode": "K-012",
+            "nama": "Es Jeruk",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "es-jeruk.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": "b6c9"
         }
       ]
     }

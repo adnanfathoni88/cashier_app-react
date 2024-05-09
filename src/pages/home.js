@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import swal from "sweetalert";
 import { useNavigate } from "react-router-dom";
 
-import { Category, Hasil, API_URL, Menus } from "../components/index";
+import { Category, Hasil, API_URL, Menus, Modal } from "../components/index";
 
 export default class Home extends Component {
   constructor(props) {
